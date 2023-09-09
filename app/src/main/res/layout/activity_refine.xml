@@ -189,11 +189,12 @@
 
     </com.google.android.material.chip.ChipGroup>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/savAndExploreBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Save &amp; Explore"
+        android:textColor="@color/white"
         android:textAllCaps="false"
         android:paddingStart="25dp"
         android:paddingEnd="25dp"
