@@ -77,14 +77,18 @@
                     android:gravity="center"
                     android:text="Your GPS seems to be disabled,\ndo you even enable it?" />
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/reqPerBtn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Allow"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:paddingStart="50dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginTop="15dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="5dp"
-                    android:backgroundTint="@color/purple_700"
-                    android:text="Allow" />
+                    android:background="@drawable/refine_button_background" />
 
             </LinearLayout>
 
